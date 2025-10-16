@@ -3,7 +3,7 @@
     "path": "C:/Users/jessi/OneDrive - Georgia Institute of Technology/Documents/Conditional Display/conditional_display.qmd",
     "project_path": "conditional_display.qmd",
     "type": "quarto_markdown",
-    "hash": "1040478588",
+    "hash": "1300319983",
     "contents": "",
     "dirty": false,
     "created": 1760450646488.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "12,16",
-        "scrollLine": "0"
+        "cursorPosition": "23,0",
+        "scrollLine": "13"
     },
     "folds": "",
-    "lastKnownWriteTime": 1760653179,
+    "lastKnownWriteTime": 1760654140,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1760653179738,
+    "last_content_update": 1760654140497,
     "read_only": false,
     "read_only_alternatives": []
 }

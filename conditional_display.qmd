@@ -32,7 +32,7 @@ body[data-param-v0="true"] .hide-if-v0 {
 quarto::write_yaml_metadata_block(params = params)
 ```
 
-## Task Lua
+## Testing Lua
 
 What is 2 + 2 = [4]{.answer}
 
@@ -44,7 +44,7 @@ What is 2 + 2 = [4]{.answer}
 Normal fragment
 :::
 
-## Task
+## Testing Old Version
 
 What is 2 + 2 = [4]{.content-visible unless-meta="params.v0" .fragment}
 
