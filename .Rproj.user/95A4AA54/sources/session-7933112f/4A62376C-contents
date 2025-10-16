@@ -1,0 +1,10 @@
+
+function Div(el)
+  if el.classes:includes("note") then
+    -- remove the "note" class
+    el.classes = {}
+    -- add style attribute
+    el.attributes["style"] = "color:pink"
+  end
+  return el
+end

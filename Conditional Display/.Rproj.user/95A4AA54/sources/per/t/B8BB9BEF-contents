@@ -1,0 +1,33 @@
+---
+title: "Testing"
+format: revealjs
+params:
+  v0: false
+---
+
+```{css}
+#| echo: false
+.visible {
+  color: #4682B4;
+}
+```
+
+```{r}
+#| echo: false
+#| output: asis
+quarto::write_yaml_metadata_block(params = params)
+```
+
+## Task
+
+What is 2 + 2 = [4]{.content-visible unless-meta="params.v0" .fragment}
+
+::: {.content-visible unless-meta="params.v0"}
+::: fragment
+
+2 + 2 = 4 
+
+:::
+:::
+
+

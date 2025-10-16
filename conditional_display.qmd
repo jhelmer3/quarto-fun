@@ -1,0 +1,66 @@
+---
+title: "Conditional Display"
+format: 
+  revealjs:
+     include-in-header:
+      - text: |
+          <script>
+            document.addEventListener('DOMContentLoaded', () => {
+              document.body.dataset.paramV0 = "{{< meta params.v0 >}}";
+            });
+          </script>
+filters:
+  - _extensions/answer
+params:
+  v0: true
+---
+
+```{css}
+/*| echo: false */
+.answer {
+  color: #4682B4;
+}
+
+body[data-param-v0="true"] .hide-if-v0 {
+  display: none;
+}
+```
+
+```{r}
+#| echo: false
+#| output: asis
+quarto::write_yaml_metadata_block(params = params)
+```
+
+## Task Lua
+
+What is 2 + 2 = [4]{.answer}
+
+::: answer
+2 + 2 = 4 
+:::
+
+::: fragment
+Normal fragment
+:::
+
+## Task
+
+What is 2 + 2 = [4]{.content-visible unless-meta="params.v0" .fragment}
+
+::: {.content-visible unless-meta="params.v0"}
+::: fragment
+
+2 + 2 = 4 
+
+:::
+:::
+
+::: fragment
+Normal fragment
+:::
+
+
+
+
+

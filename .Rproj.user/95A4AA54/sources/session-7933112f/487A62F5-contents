@@ -1,0 +1,14 @@
+---
+title: "Answer-key Example"
+filters:
+  - answer
+---
+
+## Heading
+
+This filter adds formatting to heading text.
+
+{{< meta title >}}
+
+<!-- {{< answer >}}2 + 2 = 4{{< /answer >}} -->
+
