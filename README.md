@@ -26,7 +26,7 @@ body[data-param-v0="true"] .hide-if-v0 {
 }
 ```
 
-3. File within _extensions/answer that has Lua code
+3. File within `_extensions/answer` that has Lua code
 
 ```
 function Div(el)
@@ -50,7 +50,7 @@ function Span(el)
 end
 ```
 
-4. `yml` file also needed for Lua
+4. `yml` file also needed for Lua (also within `_extensions/answer`)
 ```
 title: Answer
 author: Jess Helmer
