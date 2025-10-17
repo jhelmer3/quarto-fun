@@ -1,6 +1,7 @@
 # quarto-fun
 
 v0: <https://raw.githack.com/jhelmer3/quarto-fun/main/conditional_display_v0.html#/title-slide>
+
 not v0: <https://raw.githack.com/jhelmer3/quarto-fun/main/conditional_display.html#/title-slide>
 
 Lua filter version has a couple changes. 
